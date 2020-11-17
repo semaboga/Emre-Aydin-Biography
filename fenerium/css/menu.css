@@ -1,0 +1,45 @@
+.menum ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+	
+.menum li {
+	float:left;
+	position:relative;
+	width:170px;
+	}
+	
+.menum li ul {
+	position:absolute;
+	display:none;
+	left:0;
+	top:34px;
+	}
+	
+.menum li ul li {
+	width:170px;
+	}
+	
+.menum ul li a {
+	background:#173C66;
+	border:1px solid black;
+	color:#FFF;
+	font:normal 12px Arial,Helvetica,sans-serif;
+	display:block;
+	margin:0;
+	padding:2px 10px;
+	text-decoration:none;
+	line-height:28px;
+	}
+	
+.menum ul li a:hover {
+	background:#000099;
+	color:#FFF;
+	}
+	
+.menum li:hover ul {
+	display:block;
+	}
+	
+	
